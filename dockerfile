@@ -18,3 +18,5 @@ ENV FLASK_APP=app.py
 
 # Start the Flask development server on all interfaces at port 5000.
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+
+# for docker image creation cmd -> docker build -t mlops_docker_demo .  
